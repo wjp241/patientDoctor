@@ -25,7 +25,7 @@ username | password | name | age | email | address | phone_number
 doctor table
 username | password
 
-Quick Commands to Create Above Tables:
+Quick Commands to Create Above Tables and Users:
 
   create table patient(
     username varchar(50) not null,
@@ -42,5 +42,7 @@ Quick Commands to Create Above Tables:
     password varchar(50) not null
     );
 
+insert into table(username, password, name, age, email, address, phone_number) values('tempus', '123', 'q', 12, 'tempus@tempus.com', 'tempus blvd', '123456789)
 
+insert into doctor(username, password) values('jae', '123')
 
